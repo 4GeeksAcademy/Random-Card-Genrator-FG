@@ -1,1 +1,48 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+/* @import "~bootstrap/dist/css/bootstrap.min.css"; */
+body {
+  padding: 0;
+  margin: 0;
+  background-color: green;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.carta-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.carta {
+  width: 150px;
+  height: 250px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(80%);
+}
+.numero {
+  margin: 0;
+  padding: 0;
+  font-size: 48px;
+  display: flex;
+  position: absolute;
+}
+.simbolo {
+  font-size: 48px;
+  transform: translateY(-140%) translateX(-120%);
+  color: red;
+}
+.simbolo-invertido {
+  font-size: 48px;
+  transform: translateY(137%) translateX(119%) rotate(180deg);
+  color: red;
+}
+.container-button {
+  display: flex;
+  justify-content: center;
+  transform: translateY(700%);
+}
